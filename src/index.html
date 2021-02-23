@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola Tobisho!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" >
+    <title>Cipher</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+    <body>
+      <div class="top"></div>
+                <p class="info">Escribe en el área de cifrado el mensaje que quieras codificar y elige un código numérico.
+                    ¡En el recuadro inferior aparecerá el texto codificado! Si recibiste un mensaje codificado, selecciona el código
+                    y anótalo en el cuadro de abajo, ¡presiona descifrar y lee aquello que te quisieron decir!
+         <div class="container-encode">
+            <textarea class="text-encode" id="textEncode"></textarea>   
+            <input type="number" class="offset1" id="offset" placeholder="0">
+            <button type="button" class="encode" id="encodeButton">Cifrar</button>
+        </div>   
+         <div class="container-decode">
+        <div contentEditable=true class="text-decode" id="result"></div>
+        <button type="button" class="decode" id="decodeButton">Descifrar</button>
+        </div>
+       
+   
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+    <img class="mark" src="marca.png">
+</body>
+
 </html>

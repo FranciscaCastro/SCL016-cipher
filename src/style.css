@@ -1,0 +1,124 @@
+body {
+    width: 360px;
+    height: 640px;
+    background: #FFB396;
+    margin: -5px;
+    }
+    
+    .mark {
+        position: fixed;
+        width: 74px;
+        height: 75px;
+        left: 143px;
+        top: 8px;
+    }
+    
+    .top {
+        position: fixed;
+        width: 361px;
+        height: 91px;
+        left: 0px;
+        top: 0px;
+        background: #FF4646;
+    }
+    
+    .info {
+        font-size: 12px;
+        position: fixed;
+        width: 330px;
+        height: 87px;
+        left: 15px;
+        top: 86px;
+        background: #FAFAFA;
+        border-radius: 5px;
+    
+    }
+    
+    .container-encode {
+        position: fixed;
+        width: 330px;
+        height: 198px;
+        left: 15px;
+        top: 200px;
+        background: #FF8585;
+        box-shadow: 11px 12px 0px -2px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+    }
+    
+    .container-decode {
+        position: fixed;
+        width: 330px;
+        height: 200px;
+        left: 15px;
+        top: 420px;
+        background: #FF8585;
+        box-shadow: 11px 12px 0px -2px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+    }
+    
+    .text-encode {
+        position: fixed;
+        width: 240px;
+        height: 100px;
+        left: 35px;
+        top: 235px;
+        background: #FAFAFA;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    
+    .text-decode {
+        position: fixed;
+        width: 240px;
+        height: 100px;
+        left: 35px;
+        top: 455px;
+        background: #FAFAFA;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    .offset1 {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 285px;
+        top: 254px;
+        background: #FFF5C0;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;    
+    }
+        
+    .encode {
+        position: fixed;
+        width: 128px;
+        height: 25px;
+        left: 116px;
+        top: 346px;
+        background: #FFF5C0;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    
+    .decode {
+        position: fixed;
+        width: 128px;
+        height: 25px;
+        left: 116px;
+        top: 565px;
+        background: #FFF5C0;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+ 
+   
+    ::placeholder {
+        color: #a9a9a9;
+        font-size: 1rem;
+        text-align:center;
+    }
+    
