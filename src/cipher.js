@@ -7,7 +7,6 @@ const cipher = {
         // MAYÚSCULAS
         let upperFormula = ((ascii - 65 + code) % 26 + 65);
         resultEncode[i] = upperFormula;
-        console.log(upperFormula);
       } else if (ascii >= 97 && ascii <= 122) {
         // MINÚSCULAS
         let lowerFormula = ((ascii - 97 + code) % 26 + 97);
@@ -24,9 +23,9 @@ const cipher = {
     return resultEncode;
   },
 
-  decode: (resultEncode, code) => {
-    for (let k = 0; k < resultEncode.length; k++) {
-      let asciiDec = resultEncode[k].charCodeAt();
+  decode: (codedText, code) => {
+    for (let k = 0; k < codedText.length; k++) {
+      let asciiDec = codedText[k].charCodeAt();
       if (asciiDec <= 91 && asciiDec >= 61) {
         let formulaUpperDec = (((asciiDec + 65) - code) % 26 + 65);
         resultDecode[k] = formulaUpperDec;

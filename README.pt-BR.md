@@ -242,7 +242,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 7. Para ver a interface do seu programa no navegador, use o comando `npm start`
    para iniciar o servidor web e entre na url `http://localhost:5000` no seu
    navegador.
-8. Let's Code! :rocket:
+8. Let"s Code! :rocket:
 
 ### Recursos extras
 
