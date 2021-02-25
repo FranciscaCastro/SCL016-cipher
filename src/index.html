@@ -2,43 +2,41 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Cipher</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
 </head>
-    <body onload="clearInputs()">
-        <div class="top"></div>
-                <div class="info">
+    <body>
+        <header class="top"></header>
+                <section class="info">
                 <p class="info-text">Instrucciones <br>
                    Escribe en el área indicada el mensaje que quieras cifrar o descifrar, luego selecciona 
                    en el medio un número que será tu código secreto <br>
                    Bajo tu texto aparecerá el mensaje descifrado o cifrado según corresponda <br>
-                   ¡♥ Ahora di eso que siempre quisiste pero no te atrevías por miedo a chismosos ♥!
-
-        <div class="container-encode">
+                   ¡♥ Ahora di eso que siempre quisiste pero no te atrevías por miedo a chismosos ♥! 
+                </p></section>
+                
+        <section class="container-encode">
                 <p class="info-encode">Escribe aquí tu mensaje a codificar y selecciona un código <br>
-                   ¡Recuerda que con cada número el encriptado será distinto!<div>
-           <p> <input type="text" class="text-encode" id="textToEncode" placeholder="Escribe tu mensaje a encriptar"></input></p>
-            <div class="result-encode" id="resultEnc"></div>
-            <button type="button" class="encode" id="encodeButton">CIFRAR</button>
-        </div>   
+                   ¡Recuerda que con cada número el encriptado será distinto!</p>
+                <input type="text" class="text-encode" id="textToEncode" placeholder="Escribe tu mensaje a encriptar"/>
+                <article class="result-encode" id="resultEnc"></article>
+                <button type="button" class="encode" id="encodeButton">CIFRAR</button>
+        </section>   
 
         <input type="number" class="offset1" id="offset" placeholder="0">
 
-        <div class="container-decode">
+        <section class="container-decode">
                 <p class="info-decode">¿Recibiste un mensaje encriptado? <br>
                    ¡Selecciona el código con que fue codificado y a descubrirlo!</p>
-            <input type="text" class="text-decode" id="textToDecode" placeholder="Escribe tu mensaje encriptado"></input>
-            <div class="result-decode" id="resultDec"></div>
-            <button type="button" class="decode" id="decodeButton">DESCIFRAR</button>
-        </div>
+                <input type="text" class="text-decode" id="textToDecode" placeholder="Escribe tu mensaje encriptado"/>
+                <article class="result-decode" id="resultDec"></article>
+                <button type="button" class="decode" id="decodeButton">DESCIFRAR</button>
+        </section>
        
-   
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
     <img class="mark" src="marca.png">
 </body>
-
 </html>
