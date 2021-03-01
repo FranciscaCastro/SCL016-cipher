@@ -25,4 +25,3 @@ Lamentablemente y por atrasos en el proyecto por problemas de salud, decidí eli
 
 La forma de utilizar la app es ingresar un texto en el recuadro de cifrado (superior) o descifrado (inferior), donde marca "escriba su mensaje" para cada caso.
 Luego se selecciona un código numérico en el medio (que corresponde a la cantidad de letras que correrá el texto en base al orden del abecedario) y se presiona el botón CIFRAR o DESCIFRAR según corresponda, lo que hará que en el recuadro bajo el texto ingresado aparezca el resultado cifrado o descifrado.
-
