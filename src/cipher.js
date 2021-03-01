@@ -6,15 +6,15 @@ const cipher = {
       let ascii = text.charCodeAt(i);        //Variable que asigna el código ascii a cada valor que tome i
       // MAYÚSCULAS
       if (ascii >= 65 && ascii <= 90) {      //Condición, si ascii toma valor desde 65 a 90
-        let upperFormula = ((ascii - 65 + code) % 26 + 65);   // Formula de cifrado Cesar
-        resultEncode[i] = upperFormula;                       // Entrega los nuevos valores numéricos del Array
+        let upperFormula = ((ascii - 65 + code) % 26 + 65);   // Fórmula de cifrado Cesar
+        resultEncode[i] = upperFormula;                       // Aplica la fórmula a cada valor del argumento
         // MINÚSCULAS
-      } else if (ascii >= 97 && ascii <= 122) {
-        let lowerFormula = ((ascii - 97 + code) % 26 + 97);
-        resultEncode[i] = lowerFormula;
+      } else if (ascii >= 97 && ascii <= 122) {               //Si toma valor de caracteres en minúscula
+        let lowerFormula = ((ascii - 97 + code) % 26 + 97);   // Fórmula de descifrado
+        resultEncode[i] = lowerFormula;                       //Aplica fórmula a cada valor del argumento
         // OTROS CASOS
       } else {
-        let asciiConvert = ascii;
+        let asciiConvert = ascii;                             //En cualquier otro caso, el código ascii se mantiene
         resultEncode[i] = asciiConvert;
       }
     }
@@ -22,7 +22,7 @@ const cipher = {
       asciiConvert = String.fromCharCode(resultEncode[j]);    // Convierte a string los valores ascii
       resultEncode[j] = asciiConvert;                         //Entrega una cadena para cada valor
     }
-    return resultEncode.join("");                                      //Retorna la cadena
+    return resultEncode.join("");                                      //Retorna la cadena concatenada
   },
 
   decode: (code, codedText) => {

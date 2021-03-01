@@ -2,7 +2,7 @@ body {
         position: fixed;
         width: 360px;
         height: 640px;
-        background: url(background.jpg);
+        background: url(Images/background.jpg);
         margin: -5px;
     }
 
@@ -10,7 +10,7 @@ body {
         position: fixed;
         width: 61px;
         height: 61px;
-        left: 149px;
+        left: 159px;
         top: 10px;
     }
     
