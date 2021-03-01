@@ -9,17 +9,16 @@ El proyecto fue pensado como una especie de juego para adolescentes que quieran 
 El diseño fue pensado para celular, porque es lo que usan principalmente los jóvenes y porque además permite ser usado en cualquier momento y sin la necesidad de encender el computador.
 Primeramente se creó un prototipo con una pantalla de bienvenida, otra donde se cifra/descifra y la pantalla final con los resultados, sin embargo tras el feedback recibido, se decidió eliminar la pantalla de bienvenida para ir directamente a la pantalla principal y se crearon distintos prototipos, siendo elegido el primero.
 
-![Primera Idea y derivados](/readme1/.png)
-
+<img  src="https://github.com/FranciscaCastro/SCL016-cipher/blob/master/src/Images/readme1.png">
 Finalmente se perfeccionó la idea del diseño en papel, y luego se pasó a figma, quedando así:
 
-![Idea Final](/images/IdeaFinal.png)
-![Figma](/images/Prototipo1.png)
+<img  src="https://github.com/FranciscaCastro/SCL016-cipher/blob/master/src/Images/IdeaFinal.jpg">
+<img  src="https://github.com/FranciscaCastro/SCL016-cipher/blob/master/src/Images/Prototipo1.png">
 
 
 Lamentablemente y por atrasos en el proyecto por problemas de salud, decidí eliminar la pantalla final al encontrarla innecesaria y para agilizar la escritura del código, recibí buen feedback pero me hubiese gustado más. La app quedó así: 
 
-![Figma editado](/images/Prototipo2.png)
+<img  src="https://github.com/FranciscaCastro/SCL016-cipher/blob/master/src/Images/Prototipo2.png">
 
 
 # INSTRUCCIONES DE USO
